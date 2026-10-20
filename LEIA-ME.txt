@@ -1,9 +1,0 @@
-CUBO MAGICO COOPERATIVO - ATUALIZACAO
-
-Copie os arquivos para a raiz do repositorio GitHub. Render: npm install / npm start.
-
-Mudancas: voto de revanche com confirmacao, reinicio de interface, HUD independente e persistente, compensacao visual limitada do P2.
-
-AVISO: a posicao e as colisoes oficiais continuam sendo calculadas pelo P1. A compensacao local e apenas visual; pode haver atraso na confirmacao de tiros.
-
-TESTES: 1) P2 move, pula e atira; 2) os dois votam em revanche; 3) arraste HUD, salve, reinicie, recarregue e confira; 4) teste rotacao de tela.
