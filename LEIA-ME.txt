@@ -1,0 +1,8 @@
+CUBO MÁGICO SOLO - CONTROLES USB/BLUETOOTH
+
+Substitua index.html, server.js, package.json e render.yaml no GitHub.
+Multiplayer removido da interface, jogabilidade solo mantida.
+Duas mãos simultâneas removidas das seleções de habilidades.
+Controle: conecte via Bluetooth/USB ao aparelho, abra no navegador e aperte um botão. O status aparece no menu.
+A compatibilidade depende do navegador e do sistema. No iPhone, tente Safari caso Chrome não reconheça o controle.
+Não foi possível testar um gamepad físico aqui.
