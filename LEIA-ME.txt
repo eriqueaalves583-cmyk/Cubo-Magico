@@ -1,0 +1,1 @@
+Atualização experimental de sincronização visual P2. Substitua index.html e server.js. Faça backup antes. Não foi testada em dois dispositivos.
