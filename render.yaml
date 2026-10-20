@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: cubo-magico-coop
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
