@@ -1,0 +1,44 @@
+CUBO MÁGICO — MULTIPLAYER ONLINE | PACOTE PARA HOSPEDAGEM
+
+Este pacote está PREPARADO PARA PUBLICAÇÃO, mas ainda não está hospedado.
+O jogo NÃO funciona entre dois dispositivos abrindo o HTML localmente.
+
+PUBLICAR SEM INSTALAR NADA NO CELULAR (via navegador):
+1. Crie uma conta no GitHub (https://github.com/) e um repositório novo.
+2. Envie para a RAIZ do repositório os arquivos deste pacote:
+   index.html, server.js, package.json e render.yaml.
+   O .gitignore e este LEIA-ME são opcionais.
+3. Entre em https://dashboard.render.com/ e conecte sua conta GitHub.
+4. Escolha New > Blueprint e selecione o repositório que contém render.yaml.
+5. Confirme a criação do serviço web e aguarde o deploy terminar.
+6. Copie o endereço HTTPS público gerado pelo Render e abra no celular.
+7. No primeiro aparelho: Multiplayer > Criar sala.
+8. No segundo aparelho: abra o MESMO link > Multiplayer > Entrar na sala.
+9. O anfitrião inicia quando ambos estiverem conectados.
+
+OBSERVAÇÕES:
+- O Render pode alterar planos, opções de deploy e preços. Confira o painel antes de confirmar.
+- Serviços gratuitos podem hibernar quando ociosos, causando demora ao abrir o link e interrompendo salas.
+- O serviço precisa oferecer WebSockets e executar Node.js continuamente enquanto vocês jogam.
+- O modo solo não exige conexão ativa, mas para acessar esta versão hospedada é necessário carregar a página.
+- O código de sala não é senha nem proteção para dados privados. Não compartilhe dados pessoais no jogo.
+- Não envie arquivos privados ou senhas para o repositório público.
+
+REGRAS COOPERATIVAS DESTA ALFA:
+- Dois jogadores compartilham o Boss e a arena.
+- 20 segundos para reviver; 3 segundos segurando REVIVER.
+- Quem não for revivido fica eliminado até o Boss ser derrotado.
+- Se os dois forem derrubados, termina a partida.
+
+LIMITAÇÕES REAIS DESTA ALFA:
+- A simulação principal é feita pelo navegador do anfitrião, não pelo servidor.
+- A câmera do convidado depende do anfitrião; não é independente.
+- A sincronização de ataques, colisões, plataformas e transições precisa de testes reais.
+- Reconexão à partida em andamento não foi implementada.
+- Não foi testado em dois aparelhos reais nem implantado num serviço online por este pacote.
+- Não há URL pública ativa incluída; o link surge após o deploy.
+
+TESTE LOCAL OPCIONAL NO PC:
+npm install
+npm start
+Abra http://localhost:3000
