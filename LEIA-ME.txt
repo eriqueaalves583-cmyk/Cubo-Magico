@@ -1,0 +1,19 @@
+CUBO MÁGICO — MULTIPLAYER | PACOTE COMPLETO ATUALIZADO
+
+Arquivos do projeto (todos na RAIZ do repositório):
+- index.html: jogo com atualização cooperativa mais recente
+- server.js: servidor multiplayer correspondente
+- package.json: dependências e comando de inicialização
+- render.yaml: configuração do Render
+- .gitignore: exclusões do Git
+- LEIA-ME.txt: instruções
+
+ATUALIZAÇÃO DO PROJETO EXISTENTE:
+1. Faça backup do repositório ou guarde os arquivos antigos.
+2. Substitua index.html e server.js pelos deste pacote.
+3. package.json e render.yaml estão incluídos para permitir reinstalar o projeto inteiro; se já estiverem iguais no GitHub, não precisam ser substituídos.
+4. Mantenha todos os arquivos na raiz, não dentro de uma subpasta.
+5. Confirme o commit e aguarde o novo deploy ficar Live no Render.
+6. Atualize a página em ambos os dispositivos e teste em uma nova sala.
+
+ATENÇÃO: sintaxe validada; funcionamento multiplayer em dois aparelhos ainda precisa de teste.
