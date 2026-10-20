@@ -1,0 +1,29 @@
+CUBO MÁGICO — FORTALEZA DAS SEIS FACES — COOP ADAPTADO
+
+ARQUIVOS PARA GITHUB / RENDER
+- index.html: jogo completo (solo e multiplayer).
+- server.js: servidor de salas, entrada, votos e mensagens.
+- package.json: dependências e inicialização Node.js.
+- render.yaml: configuração de deploy.
+- .gitignore: ignora dependências locais.
+
+COMO PUBLICAR
+1. Faça backup do repositório atual.
+2. Substitua estes arquivos na RAIZ do repositório GitHub.
+3. No Render, aguarde o deploy terminar e exibir Live.
+4. Abra o mesmo link em PC e celular e atualize ambos.
+5. P1 cria sala, P2 entra com código, P1 inicia.
+
+ALTERAÇÃO MAIS IMPORTANTE
+O P2 não simula mais uma física independente. Recebe a posição oficial
+calculada pelo P1, assim tiros, plataformas e dano usam as mesmas coordenadas.
+A câmera continua independente. Isso troca parte da resposta imediata
+por maior consistência de colisões e pode mostrar atraso se a conexão oscilar.
+
+O QUE FOI PRESERVADO
+Jogo original, fases, boss, HUD, editor de HUD, solo, reviver,
+revanche, servidor Socket.IO e efeitos originais.
+
+TESTES
+Sintaxe validada. Não é possível garantir ausência de bugs ou latência
+sem teste simultâneo em dois dispositivos e conexão real.
