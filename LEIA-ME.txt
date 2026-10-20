@@ -1,0 +1,7 @@
+CUBO MÁGICO — SINCRONIZAÇÃO SUAVE (TESTE)
+
+Substitua somente index.html no GitHub. Mantenha server.js, package.json e render.yaml.
+
+Mudanças: snapshots numerados, descarte de snapshots antigos, animação sem rebobinar o relógio, suavização visual do Boss e do outro jogador no P2, taxa de atualização ajustada para 20 Hz.
+
+LIMITAÇÃO: a simulação continua autoritativa no P1; não é ainda arquitetura totalmente simétrica nem sincronização completa de todos os efeitos. Testar duas telas, fases, ataques, dano e revive.
